@@ -21,8 +21,8 @@ function App() {
     {
       id: '1',
       title: 'Festa Junina',
-      start: '2023-06-10T14:00:00',
-      end: '2023-06-10T18:00:00',
+      start: '2025-06-10T14:00:00',
+      end: '2025-06-10T18:00:00',
       color: '#3788d8',
       location: 'Pátio Principal',
       description:
@@ -34,8 +34,8 @@ function App() {
     {
       id: '2',
       title: 'Palestra sobre Saúde',
-      start: '2023-06-15T10:00:00',
-      end: '2023-06-15T11:30:00',
+      start: '2025-06-15T10:00:00',
+      end: '2025-06-15T11:30:00',
       color: '#e74c3c',
       location: 'Auditório',
       description: 'Palestra para conscientização sobre saúde.',
@@ -46,8 +46,8 @@ function App() {
     {
       id: '3',
       title: 'Aniversário Coletivo',
-      start: '2023-06-20T15:00:00',
-      end: '2023-06-20T17:00:00',
+      start: '2025-06-20T15:00:00',
+      end: '2025-06-20T17:00:00',
       color: '#2ecc71',
       location: 'Sala de Eventos',
       description: 'Comemoração de aniversários do mês.',
@@ -408,8 +408,8 @@ function App() {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" control
-Id="formNotify">
+            <Form.Group className="mb-3" controlId="formNotify">
+
 <Form.Check
 type="checkbox"
 label="Notificar antes do evento"
